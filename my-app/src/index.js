@@ -2,15 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'semantic-ui-css/semantic.min.css';
 import './style.css';
-import { Header, Container, Menu, Message, Grid, Icon, Input, Image } from 'semantic-ui-react';
+import { Header, Container, Menu, Message, Grid, Icon, Input, Image, Flag } from 'semantic-ui-react';
 
 class HeaderMessage extends React.Component {
   render() {
     return (
       <Message>
-        <Message.Header>
           PLEASE ALLOW 5-14 BUSINESS DAYS FOR ORDER PROCESSING (PRE-SHIPMENT) — THANKS FOR YOUR PATIENCE
-        </Message.Header>
       </Message>
     );
   }
@@ -105,8 +103,8 @@ class FooterMenu extends React.Component {
                   <Icon name='twitter'/>
                 </Menu.Item>
                 <Menu.Item>
-                  <Icon name='us flag'/>
-                  <Icon name='eu flag'/>
+                  <Flag name='us flag'/>
+                  <Flag name='eu flag'/>
                 </Menu.Item>
               </Menu>
             </Grid.Column>

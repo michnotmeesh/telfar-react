@@ -1,0 +1,35 @@
+.ui.message {
+  color: black;
+  background-color: #e4e9d0;
+  text-align: center;
+  padding: 3px 10px;
+  margin-bottom: 1px;
+  border: 1px black solid;
+  box-shadow: none;
+}
+
+.ui.borderless.menu {
+  border: none;
+  box-shadow: none;
+}
+
+.ui.input > input {
+  border: none;
+  box-shadow: none;
+}
+
+.text {
+  padding: 5px;
+  font-weight: bold;
+}
+
+.header.item {
+  font-weight: bold;
+}
+
+hr {
+  clear: both;
+  border-top: solid #e8e8e8;
+  border-width: 1px;
+  margin: 30px;
+}
